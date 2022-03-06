@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    registry = 'lqss/jenkins'
+    registry = 'labdus/jenkins'
     registryCredential = 'DockerJenkis'
     dockerImage = ''
   }
