@@ -1,7 +1,7 @@
 pipeline {
   environment {
     registry = 'lqss/jenkins'
-    registryCredential = 'dockerHub'
+    registryCredential = 'docker'
     dockerImage = ''
   }
   agent any
