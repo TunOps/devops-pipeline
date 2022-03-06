@@ -21,7 +21,7 @@ pipeline {
     stage('GIT Clone') {
       steps {
         echo 'Getting Project from Git'
-        git 'https://github.com/LQss11/devops-pipeline.git'
+        git 'https://github.com/TunOps/devops-pipeline.git'
       }
     }
     stage('MVN CLEAN') {
